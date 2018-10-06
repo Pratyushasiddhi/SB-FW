@@ -1,0 +1,108 @@
+--------------- Rebuild Started: 09/16/2018 12:34:27 Project: SmartBreath, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\main.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\Motor.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\Bluetooth.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cymetadata.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\Cm0Start.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyFlash.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyLib.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cyPm.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cyutils.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyDMA.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyLFClk.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\MotorStep.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\MotorStep_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\Clock_1.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\Motor_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\MOT_DIR.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\MOT_DIR_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\MOT_ENABLE.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\MOT_ENABLE_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\MotorRamp_Isr.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\MS1.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\MS1_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\MS2.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\MS2_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\SLP.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\SLP_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\BLE.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\BLE_gatt.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\BLE_eventHandler.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\BLE_HAL_INT.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\BLE_HAL_PVT.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\BLE_custom.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\BLE_bless_isr.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\SmartBreath.hex"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\SmartBreath.map"
+Deleting file ".\SmartBreath.cycdx"
+Deleting file ".\SmartBreath.svd"
+Deleting file ".\SmartBreath.rpt"
+Deleting file ".\SmartBreath_timing.html"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\.deps\SOURCE_C__ARM_GCC_GENERIC.P"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\.deps\SOURCE_ASM__ARM_GCC_GENERIC.P"
+cydsfit.exe -.appdatapath "C:\Users\praty\AppData\Local\Cypress Semiconductor\PSoC Creator\4.2" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\praty\Documents\smart-breath\SmartBreath.cydsn\SmartBreath.cyprj -d CY8C4248LQI-BL583 -s C:\Users\praty\Documents\smart-breath\SmartBreath.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+Elaborating Design...
+HDL Generation...
+Synthesis...
+Tech Mapping...
+Analog Placement...
+Analog Routing...
+Analog Code Generation...
+Digital Placement...
+Digital Routing...
+Bitstream Generation...
+Bitstream Verification...
+Static timing analysis...
+API Generation...
+Dependency Generation...
+Cleanup...
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM0\ARM_GCC_541\Debug\main.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/Motor.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Motor.c -o .\CortexM0\ARM_GCC_541\Debug\Motor.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/Bluetooth.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Bluetooth.c -o .\CortexM0\ARM_GCC_541\Debug\Bluetooth.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cyfitter_cfg.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cyfitter_cfg.c -o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cymetadata.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cymetadata.c -o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cy_em_eeprom.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cy_em_eeprom.c -o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/Cm0Start.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\Cm0Start.c -o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyFlash.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyFlash.c -o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyLib.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyLib.c -o .\CortexM0\ARM_GCC_541\Debug\CyLib.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cyPm.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cyPm.c -o .\CortexM0\ARM_GCC_541\Debug\cyPm.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cyutils.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cyutils.c -o .\CortexM0\ARM_GCC_541\Debug\cyutils.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyDMA.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyDMA.c -o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyLFClk.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyLFClk.c -o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MotorStep.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\MotorStep.c -o .\CortexM0\ARM_GCC_541\Debug\MotorStep.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MotorStep_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\MotorStep_PM.c -o .\CortexM0\ARM_GCC_541\Debug\MotorStep_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/Clock_1.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\Clock_1.c -o .\CortexM0\ARM_GCC_541\Debug\Clock_1.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/Motor.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\Motor.c -o .\CortexM0\ARM_GCC_541\Debug\Motor.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/Motor_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\Motor_PM.c -o .\CortexM0\ARM_GCC_541\Debug\Motor_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MOT_DIR.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\MOT_DIR.c -o .\CortexM0\ARM_GCC_541\Debug\MOT_DIR.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MOT_DIR_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\MOT_DIR_PM.c -o .\CortexM0\ARM_GCC_541\Debug\MOT_DIR_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MOT_ENABLE.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\MOT_ENABLE.c -o .\CortexM0\ARM_GCC_541\Debug\MOT_ENABLE.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MOT_ENABLE_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\MOT_ENABLE_PM.c -o .\CortexM0\ARM_GCC_541\Debug\MOT_ENABLE_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MotorRamp_Isr.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\MotorRamp_Isr.c -o .\CortexM0\ARM_GCC_541\Debug\MotorRamp_Isr.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MS1.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\MS1.c -o .\CortexM0\ARM_GCC_541\Debug\MS1.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MS1_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\MS1_PM.c -o .\CortexM0\ARM_GCC_541\Debug\MS1_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MS2.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\MS2.c -o .\CortexM0\ARM_GCC_541\Debug\MS2.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MS2_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\MS2_PM.c -o .\CortexM0\ARM_GCC_541\Debug\MS2_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/SLP.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\SLP.c -o .\CortexM0\ARM_GCC_541\Debug\SLP.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/SLP_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\SLP_PM.c -o .\CortexM0\ARM_GCC_541\Debug\SLP_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/BLE.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\BLE.c -o .\CortexM0\ARM_GCC_541\Debug\BLE.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/BLE_gatt.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\BLE_gatt.c -o .\CortexM0\ARM_GCC_541\Debug\BLE_gatt.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/BLE_eventHandler.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\BLE_eventHandler.c -o .\CortexM0\ARM_GCC_541\Debug\BLE_eventHandler.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/BLE_HAL_INT.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\BLE_HAL_INT.c -o .\CortexM0\ARM_GCC_541\Debug\BLE_HAL_INT.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/BLE_HAL_PVT.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\BLE_HAL_PVT.c -o .\CortexM0\ARM_GCC_541\Debug\BLE_HAL_PVT.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/BLE_custom.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\BLE_custom.c -o .\CortexM0\ARM_GCC_541\Debug\BLE_custom.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/BLE_bless_isr.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\BLE_bless_isr.c -o .\CortexM0\ARM_GCC_541\Debug\BLE_bless_isr.o
+arm-none-eabi-as.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -alh=.\CortexM0\ARM_GCC_541\Debug/CyBootAsmGnu.lst -g -W -o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o Generated_Source\PSoC4\CyBootAsmGnu.s
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\SmartBreath.a .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\MotorStep.o .\CortexM0\ARM_GCC_541\Debug\MotorStep_PM.o .\CortexM0\ARM_GCC_541\Debug\Clock_1.o .\CortexM0\ARM_GCC_541\Debug\Motor.o .\CortexM0\ARM_GCC_541\Debug\Motor_PM.o .\CortexM0\ARM_GCC_541\Debug\MOT_DIR.o .\CortexM0\ARM_GCC_541\Debug\MOT_DIR_PM.o .\CortexM0\ARM_GCC_541\Debug\MOT_ENABLE.o .\CortexM0\ARM_GCC_541\Debug\MOT_ENABLE_PM.o .\CortexM0\ARM_GCC_541\Debug\MotorRamp_Isr.o .\CortexM0\ARM_GCC_541\Debug\MS1.o .\CortexM0\ARM_GCC_541\Debug\MS1_PM.o .\CortexM0\ARM_GCC_541\Debug\MS2.o .\CortexM0\ARM_GCC_541\Debug\MS2_PM.o .\CortexM0\ARM_GCC_541\Debug\SLP.o .\CortexM0\ARM_GCC_541\Debug\SLP_PM.o .\CortexM0\ARM_GCC_541\Debug\BLE.o .\CortexM0\ARM_GCC_541\Debug\BLE_gatt.o .\CortexM0\ARM_GCC_541\Debug\BLE_eventHandler.o .\CortexM0\ARM_GCC_541\Debug\BLE_HAL_INT.o .\CortexM0\ARM_GCC_541\Debug\BLE_HAL_PVT.o .\CortexM0\ARM_GCC_541\Debug\BLE_custom.o .\CortexM0\ARM_GCC_541\Debug\BLE_bless_isr.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\SmartBreath.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o C:\Users\praty\Documents\smart-breath\SmartBreath.cydsn\CortexM0\ARM_GCC_541\Debug\SmartBreath.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\Motor.o .\CortexM0\ARM_GCC_541\Debug\Bluetooth.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\SmartBreath.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\Library\gccCyBLEStack_BLE_SOC_PERIPHERAL.a" -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/SmartBreath.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+.\CortexM0\ARM_GCC_541\Debug\Bluetooth.o: In function `CustomEventHandler':
+C:\Users\praty\Documents\smart-breath\SmartBreath.cydsn/Bluetooth.c:334: undefined reference to `SetMotorDirection'
+C:\Users\praty\Documents\smart-breath\SmartBreath.cydsn/Bluetooth.c:339: undefined reference to `SetMotorDirection'
+C:\Users\praty\Documents\smart-breath\SmartBreath.cydsn/Bluetooth.c:341: undefined reference to `MotorStart'
+collect2.exe: error: ld returned 1 exit status
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Rebuild Failed: 09/16/2018 12:34:55 ---------------
